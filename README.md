@@ -105,3 +105,9 @@ for study in client.dataset(run["defaultDatasetId"]).iterate_items():
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+### Newly Added AI & Startup Intelligence Actors (Zero-Browser, MCP-Ready)
+| Actor | Store Link | Data Source |
+| --- | --- | --- |
+| **HuggingFace Trending AI Models, Daily Papers & Datasets** | [`eu-data-labs/huggingface-ai-models-papers-scraper`](https://apify.com/eu-data-labs/huggingface-ai-models-papers-scraper) | Official HuggingFace Hub API (`models`, `daily_papers`, `datasets`) |
+| **HackerNews & YC Show HN, Jobs & Tech Trends** | [`eu-data-labs/hackernews-yc-leads-trends-scraper`](https://apify.com/eu-data-labs/hackernews-yc-leads-trends-scraper) | Official Algolia HN Search API (`show_hn`, `front_page`, `job`, `ask_hn`) |
