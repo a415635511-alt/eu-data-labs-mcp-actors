@@ -111,3 +111,5 @@ MIT — see [LICENSE](LICENSE).
 | --- | --- | --- |
 | **HuggingFace Trending AI Models, Daily Papers & Datasets** | [`eu-data-labs/huggingface-ai-models-papers-scraper`](https://apify.com/eu-data-labs/huggingface-ai-models-papers-scraper) | Official HuggingFace Hub API (`models`, `daily_papers`, `datasets`) |
 | **HackerNews & YC Show HN, Jobs & Tech Trends** | [`eu-data-labs/hackernews-yc-leads-trends-scraper`](https://apify.com/eu-data-labs/hackernews-yc-leads-trends-scraper) | Official Algolia HN Search API (`show_hn`, `front_page`, `job`, `ask_hn`) |
+| **DeFiLlama DeFi Yields, APY & Protocol TVL** | [`eu-data-labs/defillama-tvl-yields-stablecoins-scraper`](https://apify.com/eu-data-labs/defillama-tvl-yields-stablecoins-scraper) | Official DeFiLlama API (14,900+ pools & 9,000+ protocols) |
+| **GitHub Trending & Fast-Rising Repositories** | [`eu-data-labs/github-trending-repos-leads-scraper`](https://apify.com/eu-data-labs/github-trending-repos-leads-scraper) | Official GitHub REST API (star velocity, topics & deal-flow) |
