@@ -115,3 +115,12 @@ MIT — see [LICENSE](LICENSE).
 | **DeFiLlama DeFi Yields, APY & Protocol TVL** | [`eu-data-labs/defillama-tvl-yields-stablecoins-scraper`](https://apify.com/eu-data-labs/defillama-tvl-yields-stablecoins-scraper) | Official DeFiLlama API (14,900+ pools & 9,000+ protocols) |
 | **GitHub Trending & Fast-Rising Repositories** | [`eu-data-labs/github-trending-repos-leads-scraper`](https://apify.com/eu-data-labs/github-trending-repos-leads-scraper) | Official GitHub REST API (star velocity, topics & deal-flow) |
 | **DexScreener Trending Tokens & Live DEX Pairs** | [`eu-data-labs/dexscreener-trending-pairs-scraper`](https://apify.com/eu-data-labs/dexscreener-trending-pairs-scraper) | Official DexScreener API (boosts, liquidity, FDV, 24h DEX volume) |
+
+## High-Demand B2B Lead Generation & E-Commerce Actors (Zero-Browser, Pay-Per-Event)
+
+| Actor | Best For | Pricing | Link |
+|---|---|---|---|
+| **Website Email, Phone & Social Contact Details Extractor** | Bulk B2B email enrichment, phone/LinkedIn/X/IG/GitHub extraction & tech stack detection | `$0.005/start + $0.001/domain` | [Run on Apify](https://apify.com/eu-data-labs/website-email-contact-extractor) |
+| **Shopify Store Products, Pricing, Stock & B2B Leads Scraper** | Full `/products.json` catalog, variants, SKUs, discounts, stock + store business emails & socials | `$0.005/start + $0.0005/record` | [Run on Apify](https://apify.com/eu-data-labs/shopify-store-products-leads-scraper) |
+| **Reddit Fast Search, Subreddit Posts & B2B Lead Monitor** | Keyword buyer-intent monitoring, competitor mentions & SaaS lead discovery across Reddit | `$0.005/start + $0.0005/post` | [Run on Apify](https://apify.com/eu-data-labs/reddit-fast-search-lead-monitor) |
+| **YouTube Channel Business Email, Stats & Social Leads Scraper** | Influencer & creator sponsorship outreach (emails + linked-site enrichment + socials) | `$0.005/start + $0.001/channel` | [Run on Apify](https://apify.com/eu-data-labs/youtube-channel-email-leads-scraper) |
