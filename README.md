@@ -13,18 +13,19 @@ Built for quant researchers, biotech/compliance analysts, European procurement t
 | **ClinicalTrials.gov v2 Pipeline** | Official ClinicalTrials API v2 | NCT study IDs, trial phases, sponsors, enrollment targets, primary endpoints, sites & contacts | [eu-data-labs/clinicaltrials-gov-scraper](https://apify.com/eu-data-labs/clinicaltrials-gov-scraper) | `$0.005` start + `$0.0025`/study |
 | **Polymarket & Kalshi Odds** | Polymarket Gamma + Kalshi v2 | Normalized YES/NO probabilities, bid/ask spreads, 24h volume & liquidity across both venues | [eu-data-labs/polymarket-kalshi-odds-scraper](https://apify.com/eu-data-labs/polymarket-kalshi-odds-scraper) | `$0.005` start + `$0.002`/market |
 | **Hyperliquid Perp Funding & OI** | Hyperliquid Info API | Live hourly & annualized (APR) funding rates, open interest USD, 24h volume, mark vs oracle spread across 230+ perps | [eu-data-labs/hyperliquid-perp-funding-oi-scraper](https://apify.com/eu-data-labs/hyperliquid-perp-funding-oi-scraper) | `$0.005` start + `$0.002`/pair |
+| **USASpending Federal Contracts** | Official USASpending.gov API v2 | U.S. federal contract awards, recipients, amounts, awarding agencies, performance dates, and official award links | [eu-data-labs/usaspending-federal-contracts-scraper](https://apify.com/eu-data-labs/usaspending-federal-contracts-scraper) | `$0.005` start + `$0.0005`/record |
 
 ---
 
 ## Use via Model Context Protocol (MCP)
 
-Connect all five data feeds directly to **Claude Desktop**, **Cursor**, **Windsurf**, or any MCP-compatible agent via Apify's hosted MCP server:
+Connect all six data feeds directly to **Claude Desktop**, **Cursor**, **Windsurf**, or any MCP-compatible agent via Apify's hosted MCP server:
 
 ```json
 {
   "mcpServers": {
     "eu-data-labs": {
-      "url": "https://mcp.apify.com/?actors=eu-data-labs/ted-europa-tenders-scraper,eu-data-labs/sec-edgar-insider-trading-scraper,eu-data-labs/clinicaltrials-gov-scraper,eu-data-labs/polymarket-kalshi-odds-scraper,eu-data-labs/hyperliquid-perp-funding-oi-scraper",
+      "url": "https://mcp.apify.com/?actors=eu-data-labs/ted-europa-tenders-scraper,eu-data-labs/sec-edgar-insider-trading-scraper,eu-data-labs/clinicaltrials-gov-scraper,eu-data-labs/polymarket-kalshi-odds-scraper,eu-data-labs/hyperliquid-perp-funding-oi-scraper,eu-data-labs/usaspending-federal-contracts-scraper",
       "headers": {
         "Authorization": "Bearer YOUR_APIFY_API_TOKEN"
       }
